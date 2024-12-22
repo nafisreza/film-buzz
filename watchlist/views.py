@@ -25,9 +25,8 @@ def add_to_watchlist(request, movie_id):
                 tmdb_id = movie_id,
                 poster = f"https://image.tmdb.org/t/p/w500{data['poster_path']}",
             )
-    
-    else:
-        return redirect('watchlist')
+
+
     
     watchlist, is_created = Watchlist.objects.get_or_create(user=request.user, movie=movie)
     if is_created:

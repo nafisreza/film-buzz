@@ -44,6 +44,10 @@ class Watchlist(models.Model):
             base_slug = slugify(f"{self.user.username}-{self.movie.title}")
             slug = base_slug
             
+            counter = 1
+            while Watchlist.objects.filter(slug=slug).exists():
+                slug = f"{base_slug}-{counter}"
+                counter += 1
 
             self.slug = slug
         super().save(*args, **kwargs)
