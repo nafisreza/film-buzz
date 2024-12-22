@@ -338,7 +338,72 @@ I used [Figma](https://www.figma.com/) to create low-fidelity and high-fidelity 
 
 ## Features
 
+### Home Page
+This is the page a user views for the first time when he/she enters the site. It has a navbar on top for the navigation menu and search bar. I have a hero section with a Call-To-Action button. It features the top 3 trending posts. Trending posts are selected based on the highest number of comments. Then, users can see the latest posts, categories, and recent comments.
 
+![]()
+
+### About Page
+This page gives a brief introduction to the website. It consists of different sections like Vision, Mission, and Frequently Asked Questions.
+
+![]() ![]()
+
+### Blogs Page
+The blogs page displays all the existing posts on the website. At the top, users can see the featured post, which is the most recent post on the blog. I have 10 different movie categories listed in separate cards. My blog module supports pagination, which is defined dynamically based on the post count.
+
+### Nav Menu
+The nav menu contains everything the user will need to navigate the site. The site logo, along with pages and a search bar, always appears on the site menu. It also provides buttons for Sign Up and Login. If the user is already authenticated, these buttons are replaced with Profile and Logout.
+
+### Search Bar
+I have a search bar on the navigation menu that allows users to search for posts across the blog. Users can type their query into the textbox, and based on the parameter, I match it with titles of all the blog posts and serve the search results.
+
+### Footer
+The footer appears across the website and includes information about Film Buzz and links to my Twitter, LinkedIn, and GitHub profiles. This lets the user learn more about me as the developer and connect on these platforms if they wish.
+
+### Sign Up
+For account creation, the user needs to fill out the sign-up form with their username, email, and password (entered twice). Note that all these fields are validated in the background. The username/email must be unique, and the passwords must match and be strong.
+
+### Login
+After account creation, a user can log in to my website. He/she will need to provide their registered username and password. After clicking the login button, I perform an authentication check in the backend. If the credentials match, the user is redirected to the home page. Otherwise, an error message is displayed based on the issue.
+
+### Post Details
+Users can view the details of a post by clicking on the post cards. On the post details page, they can see the featured image, description, author name, creation date and time, and the category of the post.
+
+### Edit Post
+Authenticated users can edit their posts. On the post details page, there is an edit button that redirects to the edit post form. Users can update the title, content, category, and featured image of the post. After making changes, they can save the updates, which will reflect immediately on the post details page.
+
+### Delete Post
+Authenticated users can delete their posts. On the post details page, there is a delete button. Upon clicking, a confirmation page appears to prevent accidental deletions. Once confirmed, the post is permanently removed from the website, and the user is redirected to the blogs page.
+
+### Comments
+Logged-in users can comment on any post. They can scroll down to the bottom of the post details page and use the comment form to add their comment. They can also edit and delete their comments in case of a change of mind.
+
+### Edit Comment
+Logged-in users can edit their comments. On the post details page, each comment has an edit button next to it. Clicking the edit button opens a form where users can modify the content of their comment. After making changes, they can save the updates, which will reflect immediately on the post details page.
+
+### Delete Comment
+Logged-in users can delete their comments. On the post details page, each comment has a delete button next to it. Once clicked, the comment is permanently removed from the post.
+
+### User Profile
+Every registered user has their profile. The profile page displays the user's information based on the sign-up form values. It also displays some additional info, including bio, profile picture, joining date, and location. The joining date is dynamically stored in the database upon account creation. Initially, the bio, profile picture, and location are empty. Users can go to the edit profile section to update them. Note that the username and email are permanent and cannot be changed (except in special cases agreed upon by the superuser).
+
+### Filter Posts by Author
+On a user's profile, only posts created by that user are shown. My posts section also supports pagination, just like the blogs page.
+
+### Pagination
+On my blog and profile pages, I have implemented pagination for better user experience. It shows 6 posts per page. There are next/prev buttons along with oldest/latest buttons. The current page number and the total page number are shown in the middle.
+
+### Categories
+There are 10 different film categories on my website. They are predefined by the admin, and users can only select from the available categories. On the home and blogs pages, I list the categories in a card format. By clicking on any of them, users can view posts specific to that category.
+
+### Recent Comments
+The most recent 3 comments are displayed on the homepage based on comment creation time. Each of these comments is clickable and links to the post where the comment was made.
+
+### 404 - Not Found
+If a user tries to access any invalid URL not listed in my project, they are redirected to the 404 page. The Back to Home button takes the user back to the homepage.
+
+### Admin Panel
+Superusers and staff can log in to the admin dashboard and have control over all the models. This page contains a list of all the posts, categories, movies, watchlist entries, and comments. Admins can edit or delete any of these entries as needed.
 
 ## Database Design
 
