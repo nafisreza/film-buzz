@@ -40,6 +40,36 @@ The results from these tests are shown in the table below:
 
 ## Lighthouse Audit
 
+To ensure optimal performance, accessibility, and user experience, I conducted a thorough Lighthouse audit on all key pages of the Film Buzz project. Both desktop and mobile versions were rigorously tested, yielding impressive results that showcased high levels of responsiveness and usability. With most performance scores exceeding 70, the site demonstrated strong overall efficiency. Accessibility scores also saw significant improvement after the addition of ARIA labels to key link tags, enhancing navigation for users relying on assistive technologies.
+
+The audit identified several opportunities for optimisation, including reducing the Largest Contentful Paint time, eliminating render-blocking resources, properly sizing images, and implementing more efficient caching policies. Additional recommendations involved serving images in next-gen formats, minimising unused CSS and JavaScript, and improving text compression. While these findings present valuable opportunities for further enhancing performance, no critical issues were identified, affirming the site’s reliability and user-friendliness.
+
+These audits confirm that the Film Buzz website delivers a seamless and efficient experience across devices, achieving a balance between performance, accessibility, and user satisfaction. The table below summarises the audit results for each page, complete with screenshots for reference.
+
+| Page              | Size     | Screenshot | Notes |
+|-------------------|----------|------------|-------|
+| Home              | Desktop  |     ![home-desktop](/documentation/testing/light-house-audit/home-lh-desktop.png)       |   Some minor warnings    |
+| Home              | Mobile   |     ![home-mobile](/documentation/testing/light-house-audit/home-lh-mobile.png)       |   Some minor warnings    |
+| About             | Desktop  |     ![about-desktop](/documentation/testing/light-house-audit/about-lh-desktop.png)        |  Some minor warnings     |
+| About             | Mobile   |     ![about-mobile](/documentation/testing/light-house-audit/about-lh-mobile.png)      |   Some minor warnings    |
+| Blog              | Desktop  |     ![blog-desktop](/documentation/testing/light-house-audit/blog-lh-desktop.png)       |    No major warnings   |
+| Blog              | Mobile   |     ![blog-mobile](/documentation/testing/light-house-audit/blog-lh-mobile.png)       |   Some minor warnings    |
+| Details           | Desktop  |     ![details-desktop](/documentation/testing/light-house-audit/details-lh-desktop.png)       |  No major warnings     |
+| Details           | Mobile   |     ![details-mobile](/documentation/testing/light-house-audit/details-lh-mobile.png)       |   Some minor warnings    |
+| Login             | Desktop  |     ![login-desktop](/documentation/testing/light-house-audit/login-lh-desktop.png)       |  Some minor warnings    |
+| Login             | Mobile   |      ![login-mobile](/documentation/testing/light-house-audit/login-lh-mobile.png)      |   Some minor warnings    |
+| Sign Up           | Desktop  |      ![signup-desktop](/documentation/testing/light-house-audit/signup-lh-desktop.png)      |  No major warnings     |
+| Sign Up           | Mobile   |      ![signup-mobile](/documentation/testing/light-house-audit/signup-lh-mobile.png)      |  Some minor warnings     |
+| Profile           | Desktop  |    ![profile-desktop](/documentation/testing/light-house-audit/profile-lh-desktop.png)        |  Some minor warnings     |
+| Profile           | Mobile   |    ![profile-mobile](/documentation/testing/light-house-audit/profile-lh-mobile.png)       |  Some minor warnings     |
+| Watchlist         | Desktop  |     ![watchlist-desktop](/documentation/testing/light-house-audit/watchlist-lh-desktop.png)       |  Some minor warnings     |
+| Watchlist         | Mobile   |     ![watchlist-mobile](/documentation/testing/light-house-audit/watchlist-lh-mobile.png)       |  Some minor warnings     |
+| Search Results    | Desktop  |     ![search-desktop](/documentation/testing/light-house-audit/searchresults-lh-desktop.png)       |  No major warnings     |
+| Search Results    | Mobile   |     ![search-mobile](/documentation/testing/light-house-audit/searchresults-lh-mobile.png)       |  Some minor warnings     |
+| Not Found Page    | Desktop  |     ![notfound-desktop](/documentation/testing/light-house-audit/notfound-lh-desktop.png)       |  Some minor warnings     |
+| Not Found Page    | Mobile   |      ![notfound-mobile](/documentation/testing/light-house-audit/notfound-lh-mobile.png)      |  Some minor warnings     |
+
+
 ## Defensive Programming
 
 ## User Story Testing
