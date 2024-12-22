@@ -26,6 +26,10 @@ I tested my deployed project on all of the following browsers to check for compa
 
 ## Responsiveness
 
+I tested my deployed project across a variety of devices to ensure optimal responsiveness and a seamless user experience.
+
+
+
 ## Lighthouse Audit
 
 ## Defensive Programming
@@ -53,7 +57,7 @@ Below are all of my implemented user stories, with accompanying screenshots to d
 | 15  | As a commenter, I can delete existing comments so that I can remove my opinions.                         | [Delete my Comments]()           |
 | 16  | As a user, I can filter posts so that I can view posts of a specific movie genre.                         | [Filter Posts]()           |
 | 17  | As a user, I can search posts so that I can filter posts based on titles.                                 | [Search Posts]()           |
-| 18  | As a registered user, I can create, update, and delete my own watchlist so that I can track movies I am interested in watching. | [Create, update and delete Watchlist]()           |
+| 18  | As a registered user, I can create, update, and delete my own watchlist so that I can track movies I am interested in watching. | ![Create Watchlist-1](/documentation/testing/user-story-testing/create-watchlist-1.png) ![Create Watchlist-2](/documentation/testing/user-story-testing/create-watchlist-2.png) ![Create Watchlist-3](/documentation/testing/user-story-testing/create-watchlist-3.png) ![Create Watchlist-4](/documentation/testing/user-story-testing/create-watchlist-4.png) ![Create Watchlist-5](/documentation/testing/user-story-testing/create-watchlist-5.png) ![Update Watchlist-1](/documentation/testing/user-story-testing/update-watchlist-1.png) ![Update Watchlist-2](/documentation/testing/user-story-testing/update-watchlist-2.png) ![Delete Watchlist-1](/documentation/testing/user-story-testing/delete-watchlist-1.png) ![Delete Watchlist-2](/documentation/testing/user-story-testing/delete-watchlist-2.png) ![Delete Watchlist-3](/documentation/testing/user-story-testing/delete-watchlist-3.png)         |
 | 19  | As a site visitor/user, I can easily navigate the site on any device so that I have a seamless experience whether on desktop or mobile. | [Responsive Navigation]()           |
 | 20  | As an admin, I can add, edit, or delete posts so that the database remains accurate.                      | [Admin - add, edit, or delete posts]()           |
 
