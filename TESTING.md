@@ -72,6 +72,81 @@ These audits confirm that the Film Buzz website delivers a seamless and efficien
 
 ## Defensive Programming
 
+Defensive programming was manually tested with the below user acceptance testing:
+
+| Page | User Action | Expected Result | Pass/Fail | Comments |
+| --- | --- | --- | --- | --- |
+| **Home Page** | | | | |
+| | Clicking on logo | Redirection to Home page | Pass | |
+| | Navbar links | Go to different pages of the site | Pass | |
+| | Explore more button | Redirect to the blog page | Pass | |
+| | Click on any category | Loads the posts for a specific category only | |
+| | Click on any recent comment | Redirects to the post where the comment has been added | Pass | Most recent 3 comments are shown |
+| | Footer Social Links | Visit social media profiles | Pass | |
+| **About Page** | | | | |
+| | Click on any FAQ | Expands the accordion with the answer of the question | Pass | |
+| **Sign Up** | | | | |
+| | Click on Sign Up button on home page | Redirection to Sign Up page | Pass | |
+| | Enter unique username | Field will only accept username | Pass | Must be unique |
+| | Enter valid email address | Field will only accept email address format | Pass | Match with email patterns |
+| | Enter valid password (twice) | Field will only accept password format | Pass | Must be a strong password |
+| | Click Sign Up button | Redirects user to feed | Pass | |
+| | Already have an account button | Redirects to login page | Pass | |
+| **Log In** | | | | |
+| | Click on the Login button on home page | Redirection to Login page | Pass | |
+| | Enter valid username | Field will only accept email address format | Pass | |
+| | Enter valid password | Field will only accept password format | Pass | |
+| | Click Login button | Redirects user to feed | Pass | |
+| | Don't have an account button | Redirects to sign up page | Pass | |
+| **Log Out** | | | | |
+| | Click Logout button | Redirects user to home page | Pass | User must be logged in first |
+| **Own Profile** | | | | |
+| | Click on Profile button in nav | User will be redirected to their Profile page | Pass | Shows user's information |
+| | Click on Edit Profile button | User will be redirected to the edit profile page | Pass | |
+| | Click on Save button | User info will be updated | Pass | |
+| | My posts section | User will be shown his/her own posts | Pass | |
+| | Create Post button | Loads post creation page where user can make a new post | Pass | |
+| | Go to watchlist button | Redirects to user's watchlist page | Pass | |
+| **Blog Page** | | | | |
+| | Click on featured post | Loads the post details of the particular featured post | Most recent post is set as featured post |
+| | Click on any recent post | Loads the post details of the particular recent post | Most recent post are shown except the first one |
+| | Click on next/prev button on pagination | Goes to the next or previous page of the blog | Supports dynamic pagination based on number of posts |
+| | Click on any category | Loads the posts for a specific category only | |
+| **Individual Post Page** | | | | |
+| | Click delete icon on own post | User is redirected to post delete confirmation page | Pass | |
+| | Brute forcing the URL to delete another user's post | User should be given an error as he is not the owner of the post | Pass | Redirects user to error page |
+| | Type text into Leave Your Comment form and click Send | Comment is created under current post | Pass | |
+| **Edit Post Page** | | | | |
+| | Click on the Edit button | Post will be loaded as editor mode | Pass | |
+| | Click on the Save button | User will be redirected to the original post with updated data | Pass | |
+| **Delete Post Page** | | | | |
+| | Click on the Delete button | Post will be permanently deleted | Pass | |
+| | Click on the Cancel button | User will be redirected to the original post | Pass | |
+| **Comments** | | | | |
+| | Click Edit icon on own comment | User is redirected to edit comment page | Pass | |
+| | Click delete button on own comment | The particular comment of the user is deleted | Pass | |
+| | Brute forcing the URL to delete another user's comment if not on your post | User should be given an error | Pass | Redirects user to error page |
+| | Brute forcing the URL to edit another user's comment | User should be given an error | Pass | Redirects user to error page |
+| **Edit Comment Page** | | | | |
+| | Make changes in the comment form and click submit | Original comment will be updated | Pass | |
+| | Click on the Cancel button | User will be redirected to the original post | Pass | |
+| **Delete Comment Page** | | | | |
+| | Click on the Delete button | Comment will be permanently deleted | Pass | |
+| | Click on the Cancel button | User will be redirected to the original post | Pass | |
+| **Watchlist Page** | | | | |
+| | Search movie name into search box | User will be redirected to the search-results page | Pass | Fetches movie details from TMDB API based on query |
+| | Click delete icon on any movie card | The particular movie will be deleted from the watchlist | Pass | |
+| **Search Posts** | | | | |
+| | Type text into search form into nav and click the search icon | User is directed to a page with posts containing their search query | Pass | If there are no posts containing the query the page will let the user know there was no results for their query |
+| | Click on any post | User will be redirected to the particular post | Pass | |
+| **Error Page** | | | | |
+| | Click on Back To Home button | User will be redirected to their feed | Pass | |
+| **Admin Panel** | | | | |
+| | Brute forcing the URL to access Admin Panel as a regular user | User should be given an error | Pass | Redirects user to error page |
+| | Click delete icon on post | Admin is redirected to post delete confirmation page | Pass | Admin's are able to delete any post on the site regardless of if they are the author or not |
+| | Click edit icon on post | Admin is redirected to post edit page | Pass | Admin's are able to change any post on the site regardless of if they are the author or not |
+| | Add categories | Admins can create more movie categories for the blog | Pass | Regular users are only allowed to select a category from available options |
+
 ## User Story Testing
 
 Below are all of my implemented user stories, with accompanying screenshots to demonstrate their functionality and how they meet the project requirements.
@@ -122,6 +197,5 @@ Below are all of my implemented user stories, with accompanying screenshots to d
 
 ### Unfixed Bugs
 
-
-
+All identified bugs have been resolved, and no outstanding bugs need to be addressed.
 
