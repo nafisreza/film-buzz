@@ -341,24 +341,32 @@ I used [Figma](https://www.figma.com/) to create low-fidelity and high-fidelity 
 ### Home Page
 This is the page a user views for the first time when he/she enters the site. It has a navbar on top for the navigation menu and search bar. I have a hero section with a Call-To-Action button. It features the top 3 trending posts. Trending posts are selected based on the highest number of comments. Then, users can see the latest posts, categories, and recent comments.
 
-![]()
+![home-f1](/documentation/images/features/home-f1.png) ![home-f2](/documentation/images/features/home-f2.png) ![home-f3](/documentation/images/features/home-f3.png)
 
 ### About Page
 This page gives a brief introduction to the website. It consists of different sections like Vision, Mission, and Frequently Asked Questions.
 
-![]() ![]()
+![about-f1](/documentation/images/features/about-f1.png) ![about-f2](/documentation/images/features/about-f2.png)
 
 ### Blogs Page
 The blogs page displays all the existing posts on the website. At the top, users can see the featured post, which is the most recent post on the blog. I have 10 different movie categories listed in separate cards. My blog module supports pagination, which is defined dynamically based on the post count.
 
+![blog-f1](/documentation/images/features/blog-f1.png) ![blog-f2](/documentation/images/features/blog-f2.png) ![blog-f3](/documentation/images/features/blog-f3.png)
+
 ### Nav Menu
 The nav menu contains everything the user will need to navigate the site. The site logo, along with pages and a search bar, always appears on the site menu. It also provides buttons for Sign Up and Login. If the user is already authenticated, these buttons are replaced with Profile and Logout.
+
+![nav-f1](/documentation/images/features/nav-f1.png) ![nav-f2](/documentation/images/features/nav-f2.png)
 
 ### Search Bar
 I have a search bar on the navigation menu that allows users to search for posts across the blog. Users can type their query into the textbox, and based on the parameter, I match it with titles of all the blog posts and serve the search results.
 
+![searchbar-f1](/documentation/images/features/searchbar-f1.png) ![searchbar-f2](/documentation/images/features/searchbar-f2.png)
+
 ### Footer
 The footer appears across the website and includes information about Film Buzz and links to my Twitter, LinkedIn, and GitHub profiles. This lets the user learn more about me as the developer and connect on these platforms if they wish.
+
+![footer-f1](/documentation/images/features/footer-f1.png) 
 
 ### Sign Up
 For account creation, the user needs to fill out the sign-up form with their username, email, and password (entered twice). Note that all these fields are validated in the background. The username/email must be unique, and the passwords must match and be strong.
@@ -393,11 +401,17 @@ On a user's profile, only posts created by that user are shown. My posts section
 ### Pagination
 On my blog and profile pages, I have implemented pagination for better user experience. It shows 6 posts per page. There are next/prev buttons along with oldest/latest buttons. The current page number and the total page number are shown in the middle.
 
+![pagination-f1](/documentation/images/features/pagination-f1.png) ![pagination-f2](/documentation/images/features/pagination-f2.png) ![pagination-f3](/documentation/images/features/pagination-f3.png)
+
 ### Categories
 There are 10 different film categories on my website. They are predefined by the admin, and users can only select from the available categories. On the home and blogs pages, I list the categories in a card format. By clicking on any of them, users can view posts specific to that category.
 
+![categories-f1](/documentation/images/features/categories-f1.png) ![categories-f2](/documentation/images/features/categories-f2.png) ![categories-f3](/documentation/images/features/categories-f3.png)
+
 ### Recent Comments
 The most recent 3 comments are displayed on the homepage based on comment creation time. Each of these comments is clickable and links to the post where the comment was made.
+
+![recent-comments-f1](/documentation/images/features/recent-comments-f1.png) ![recent-comments-f2](/documentation/images/features/recent-comments-f2.png)
 
 ### 404 - Not Found
 If a user tries to access any invalid URL not listed in my project, they are redirected to the 404 page. The Back to Home button takes the user back to the homepage.
