@@ -6,14 +6,54 @@ Navigate back to the [README.md](https://github.com/raycarter23/film-buzz/blob/m
 
 ### HTML
 
+| Page    | Screenshot | Notes |
+|---------|------------|-------|
+| Home    | ![home-html](/documentation/code-validation/html-home.png)      |       |
+| About   | ![about-html](/documentation/code-validation/html-about.png)      |       |
+| Blog    | ![blog-html](/documentation/code-validation/html-blogs.png)      |       |
+| Signup  | ![signup-html](/documentation/code-validation/html-signup.png)      |       |
+| Login   | ![login-html](/documentation/code-validation/html-login.png)      |       |
+| Profile | ![profile-html](/documentation/code-validation/html-profile.png)      |       |
+
+
 ### CSS
 
+| File         | Screenshot | Notes |
+|--------------|------------|-------|
+| base.html    | ![base-css](/documentation/code-validation/base-css.png)      |       |
+| home.html    | ![home-css](/documentation/code-validation/home-css.png)      |       |
+| about.html   | ![about-css](/documentation/code-validation/about-css.png)      |       |
+| blog.html    | ![blog-css](/documentation/code-validation/blog-css.png)      |       |
+| signup.html  | ![signup-css](/documentation/code-validation/signup-css.png)      |       |
+| login.html   | ![login-css](/documentation/code-validation/login-css.png)      |       |
+
+
 ### JavaScript
+
+
 
 ### Python
 
 I validated all my Python files using the recommended [PEP8 CI Python Linter](https://pep8ci.herokuapp.com/):
 
+| File                    | Screenshot | Notes |
+|-------------------------|------------|-------|
+| settings.py (filmbuzz)  | ![filmbuzz-settings-py](/documentation/code-validation/filmbuzz-settings-py.png)      |       |
+| urls.py (filmbuzz)      | ![filmbuzz-urls-py](/documentation/code-validation/filmbuzz-urls-py.png)      |       |
+| forms.py (blog)         | ![blog-forms-py](/documentation/code-validation/blog-forms-py.png)      |       |
+| models.py (blog)        | ![blog-models-py](/documentation/code-validation/blog-models-py.png)      |       |
+| urls.py (blog)          | ![blog-urls-py](/documentation/code-validation/blog-urls-py.png)      |       |
+| views.py (blog)         | ![blog-views-py](/documentation/code-validation/blog-views-py.png)      |       |
+| forms.py (core)         | ![core-forms-py](/documentation/code-validation/core-forms-py.png)      |       |
+| views.py (core)         | ![core-views-py](/documentation/code-validation/core-views-py.png)      |       |
+| models.py (movies)      | ![movies-models-py](/documentation/code-validation/movies-models-py.png)      |       |
+| forms.py (user)         | ![user-forms-py](/documentation/code-validation/user-forms-py.png)      |       |
+| models.py (user)        | ![user-models-py](/documentation/code-validation/user-models-py.png)      |       |
+| urls.py (user)          | ![user-urls-py](/documentation/code-validation/user-urls-py.png)      |       |
+| views.py (user)         | ![user-views-py](/documentation/code-validation/user-views-py.png)      |       |
+| models.py (watchlist)   | ![watchlist-models-py](/documentation/code-validation/watchlist-models-py.png)      |       |
+| urls.py (watchlist)     | ![watchlist-urls-py](/documentation/code-validation/watchlist-urls-py.png)      |       |
+| views.py (watchlist)    | ![watchlist-views-py](/documentation/code-validation/watchlist-views-py.png)      |       |
 
 
 ## Browser Compatibility
