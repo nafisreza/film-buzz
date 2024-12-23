@@ -8,28 +8,31 @@ Navigate back to the [README.md](https://github.com/raycarter23/film-buzz/blob/m
 
 | Page    | Screenshot | Notes |
 |---------|------------|-------|
-| Home    | ![home-html](/documentation/code-validation/html-home.png)      |       |
-| About   | ![about-html](/documentation/code-validation/html-about.png)      |       |
-| Blog    | ![blog-html](/documentation/code-validation/html-blogs.png)      |       |
-| Signup  | ![signup-html](/documentation/code-validation/html-signup.png)      |       |
-| Login   | ![login-html](/documentation/code-validation/html-login.png)      |       |
-| Profile | ![profile-html](/documentation/code-validation/html-profile.png)      |       |
+| Home    | ![home-html](/documentation/code-validation/html-home.png)      |  The stylesheet is being imported from font awesome. I have no control over changing it as it is imported from the documentation     |
+| About   | ![about-html](/documentation/code-validation/html-about.png)      |   Same issue as home.html    |
+| Blog    | ![blog-html](/documentation/code-validation/html-blogs.png)      |   Same issue as home.html     |
+| Signup  | ![signup-html](/documentation/code-validation/html-signup.png)      |   The template is from Flowbite, and I have no control over it    |
+| Login   | ![login-html](/documentation/code-validation/html-login.png)      |   No errors    |
+| Profile | ![profile-html](/documentation/code-validation/html-profile.png)      |   Same issue as home.html     |
 
 
 ### CSS
 
 | File         | Screenshot | Notes |
 |--------------|------------|-------|
-| base.html    | ![base-css](/documentation/code-validation/base-css.png)      |       |
-| home.html    | ![home-css](/documentation/code-validation/home-css.png)      |       |
-| about.html   | ![about-css](/documentation/code-validation/about-css.png)      |       |
-| blog.html    | ![blog-css](/documentation/code-validation/blog-css.png)      |       |
-| signup.html  | ![signup-css](/documentation/code-validation/signup-css.png)      |       |
-| login.html   | ![login-css](/documentation/code-validation/login-css.png)      |       |
+| base.html    | ![base-css](/documentation/code-validation/base-css.png)      |   No errors    |
+| home.html    | ![home-css](/documentation/code-validation/home-css.png)      |   No errors    |
+| about.html   | ![about-css](/documentation/code-validation/about-css.png)      |  No errors     |
+| blog.html    | ![blog-css](/documentation/code-validation/blog-css.png)      |    No errors   |
+| signup.html  | ![signup-css](/documentation/code-validation/signup-css.png)      |  No errors     |
+| login.html   | ![login-css](/documentation/code-validation/login-css.png)      |   No errors    |
 
 
 ### JavaScript
 
+| Page         | Screenshot | Notes |
+|--------------|------------|-------|
+| about.html   | ![js-about-page](/documentation/code-validation/js-about-page.png)      |  No errors     |
 
 
 ### Python
@@ -38,22 +41,22 @@ I validated all my Python files using the recommended [PEP8 CI Python Linter](ht
 
 | File                    | Screenshot | Notes |
 |-------------------------|------------|-------|
-| settings.py (filmbuzz)  | ![filmbuzz-settings-py](/documentation/code-validation/filmbuzz-settings-py.png)      |       |
-| urls.py (filmbuzz)      | ![filmbuzz-urls-py](/documentation/code-validation/filmbuzz-urls-py.png)      |       |
-| forms.py (blog)         | ![blog-forms-py](/documentation/code-validation/blog-forms-py.png)      |       |
-| models.py (blog)        | ![blog-models-py](/documentation/code-validation/blog-models-py.png)      |       |
-| urls.py (blog)          | ![blog-urls-py](/documentation/code-validation/blog-urls-py.png)      |       |
-| views.py (blog)         | ![blog-views-py](/documentation/code-validation/blog-views-py.png)      |       |
-| forms.py (core)         | ![core-forms-py](/documentation/code-validation/core-forms-py.png)      |       |
-| views.py (core)         | ![core-views-py](/documentation/code-validation/core-views-py.png)      |       |
-| models.py (movies)      | ![movies-models-py](/documentation/code-validation/movies-models-py.png)      |       |
-| forms.py (user)         | ![user-forms-py](/documentation/code-validation/user-forms-py.png)      |       |
-| models.py (user)        | ![user-models-py](/documentation/code-validation/user-models-py.png)      |       |
-| urls.py (user)          | ![user-urls-py](/documentation/code-validation/user-urls-py.png)      |       |
-| views.py (user)         | ![user-views-py](/documentation/code-validation/user-views-py.png)      |       |
-| models.py (watchlist)   | ![watchlist-models-py](/documentation/code-validation/watchlist-models-py.png)      |       |
-| urls.py (watchlist)     | ![watchlist-urls-py](/documentation/code-validation/watchlist-urls-py.png)      |       |
-| views.py (watchlist)    | ![watchlist-views-py](/documentation/code-validation/watchlist-views-py.png)      |       |
+| settings.py (filmbuzz)  | ![filmbuzz-settings-py](/documentation/code-validation/filmbuzz-settings-py.png)      |  All the errors are related to CKEditor config. I copied the config from [Pypi](https://pypi.org/project/django-ckeditor-5/) documentation.    |
+| urls.py (filmbuzz)      | ![filmbuzz-urls-py](/documentation/code-validation/filmbuzz-urls-py.png)      |  No errors     |
+| forms.py (blog)         | ![blog-forms-py](/documentation/code-validation/blog-forms-py.png)      |   No errors    |
+| models.py (blog)        | ![blog-models-py](/documentation/code-validation/blog-models-py.png)      |  No errors     |
+| urls.py (blog)          | ![blog-urls-py](/documentation/code-validation/blog-urls-py.png)      |   No errors    |
+| views.py (blog)         | ![blog-views-py](/documentation/code-validation/blog-views-py.png)      |  No errors     |
+| forms.py (core)         | ![core-forms-py](/documentation/code-validation/core-forms-py.png)      |  No errors     |
+| views.py (core)         | ![core-views-py](/documentation/code-validation/core-views-py.png)      |  No errors     |
+| models.py (movies)      | ![movies-models-py](/documentation/code-validation/movies-models-py.png)      |  No errors     |
+| forms.py (user)         | ![user-forms-py](/documentation/code-validation/user-forms-py.png)      |  No errors     |
+| models.py (user)        | ![user-models-py](/documentation/code-validation/user-models-py.png)      |  No errors     |
+| urls.py (user)          | ![user-urls-py](/documentation/code-validation/user-urls-py.png)      |  No errors     |
+| views.py (user)         | ![user-views-py](/documentation/code-validation/user-views-py.png)      |  No errors     |
+| models.py (watchlist)   | ![watchlist-models-py](/documentation/code-validation/watchlist-models-py.png)      | No errors      |
+| urls.py (watchlist)     | ![watchlist-urls-py](/documentation/code-validation/watchlist-urls-py.png)      |  No errors     |
+| views.py (watchlist)    | ![watchlist-views-py](/documentation/code-validation/watchlist-views-py.png)      |  The error is related to TMDB API. I copied the API URLs from the [TMDB docs](https://developer.themoviedb.org/reference/intro/getting-started)    |
 
 
 ## Browser Compatibility
@@ -199,8 +202,8 @@ Below are all of my implemented user stories, with accompanying screenshots to d
 |-----|---------------------------------------------------------------------------------------------|----------------|
 | 1   | As a first-time site visitor, I can clearly see the website's purpose so that I can use it in the future. | ![Website's Purpose](/documentation/testing/user-story-testing/website-purpose.png)           |
 | 2   | As a developer, I can get an idea of the whole design system so that I can work on the UI/UX design.       | ![Whole Design System-1](/documentation/testing/user-story-testing/lf-desktop.png) ![Whole Design System-2](/documentation/testing/user-story-testing/lf-tablet.png) ![Whole Design System-3](/documentation/testing/user-story-testing/lf-mobile.png)           |
-| 3   | As a developer, I can get an idea of which components to build so that I can work on the design system.    | ![Design System Components-1](/documentation/testing/user-story-testing/design-components.png) ![Design System Components-2](/documentation/testing/user-story-testing/wireframing-website.png)          |
-| 4   | As a developer, I can build the pages based on the Figma designs so that I can check how the website looks in real time. | [Figma Designs]()           |
+| 3   | As a developer, I can get an idea of which components to build so that I can work on the design system.    | ![Design System Components-1](/documentation/testing/user-story-testing/design-components.png)          |
+| 4   | As a developer, I can build the pages based on the Figma designs so that I can check how the website looks in real time. | ![Figma Designs](/documentation/testing/user-story-testing/wireframing-website.png)           |
 | 5   | As a user, I can create an account so that I can make my profile.                                         | ![Create an account-1](/documentation/testing/user-story-testing/create-an-account-1.png) ![Create an account-2](/documentation/testing/user-story-testing/create-an-account-2.png) ![Create an account-3](/documentation/testing/user-story-testing/create-an-account-3.png)           |
 | 6   | As a registered user, I can log in to my account so that I can access the site.                           | ![Login to account-1](/documentation/testing/user-story-testing/login-1.png) ![Login to account-2](/documentation/testing/user-story-testing/login-2.png) ![Login to account-3](/documentation/testing/user-story-testing/login-3.png)     |
 | 7   | As a registered user, I can log out of my account so that I can delete the session on my current device.  | ![Log out of account-1](/documentation/testing/user-story-testing/logout-1.png) ![Log out of account-2](/documentation/testing/user-story-testing/logout-2.png)          |
@@ -231,7 +234,6 @@ A new user has decided to create a blog post about their favourite TV series. Si
 
 
 
-## Python Unit Testing
 
 ## Bugs
 

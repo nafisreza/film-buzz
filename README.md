@@ -579,6 +579,20 @@ Superusers and staff can log in to the admin dashboard and have control over all
 
 </details>
 
+## Future Features
+
+- View flagged posts
+Admins can view the posts on the dashboard which are flagged by the users of the website and based on that they can unpublish them.
+
+- Unflag a post
+If a flagged post doesn't violate the terms and conditions, the admins can unflag it.
+
+- Follow other users
+Users on Film Buzz can follow other users and see their posts and watchlist on their feeds. On user profile there should be an option to see 'followers' and 'following' counts.
+
+- Delete Account
+If a user is no longer interested in the platform, they can delete their account permanently. 
+
 ## Database Design
 
 I created an Entity Relationship Diagram using [Miro](https://miro.com/) to visually represent the relationships between the data models in Film Buzz, such as users, posts, comments, categories, and watchlists. This diagram highlights key relationships, such as the one-to-many connection between users and posts, and the many-to-many self-referential relationship for followers. 
@@ -1079,3 +1093,7 @@ Additional details on the python packages that were used can be found in the [re
 For a comprehensive list of sources referenced in this project, please see the [credits.md](https://github.com/raycarter23/film-buzz/blob/main/credits.md) file.
 
 ## Acknowledgements
+
+I would like to thank my Bootcamp course facilitator Amy Richardson for her support and guidance throughout the 16 week bootcamp.
+
+I also want to thank my carers for their support throughout the entirety of the bootcamp.
