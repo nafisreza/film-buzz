@@ -17,4 +17,4 @@ class PostForm(forms.ModelForm):
         widgets = {
             "content": CKEditor5Widget(config_name="extends")
         }
-    
+ 

@@ -7,15 +7,24 @@ from django.db.models import Count
 
 # Create your views here.
 
+
 def home(request):
-    trending_posts = Post.objects.annotate(comment_count=Count('comments')).order_by('-comment_count')[:3]
+    trending_posts = Post.objects.annotate(
+        comment_count=Count('comments')).order_by('-comment_count')[:3]
     latest_posts = Post.objects.all().order_by('-created_at')[:4]
     categories = Category.objects.all()
     recent_comments = Comment.objects.all().order_by('-created_at')[:3]
-    return render(request, 'core/home.html', {'trending_posts':trending_posts, 'latest_posts':latest_posts, 'categories':categories, 'recent_comments':recent_comments})
+    return render(request,
+                  'core/home.html',
+                  {'trending_posts': trending_posts,
+                   'latest_posts': latest_posts,
+                   'categories': categories,
+                   'recent_comments': recent_comments})
+
 
 def about(request):
     return render(request, 'core/about.html')
+
 
 def signup(request):
     if request.method == 'POST':
@@ -39,6 +48,7 @@ def signup(request):
         form = SignupForm()
     return render(request, 'core/signup.html', {'form': form})
 
+
 def signin(request):
     if request.method == 'POST':
         form = AuthenticationForm(request, data=request.POST)
@@ -47,7 +57,7 @@ def signin(request):
             username = form.cleaned_data.get('username')
             password = form.cleaned_data.get('password')
             user = authenticate(username=username, password=password)
-            
+
             if user is not None:
                 login(request, user)
                 return redirect('home')
