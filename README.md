@@ -341,83 +341,243 @@ I used [Figma](https://www.figma.com/) to create low-fidelity and high-fidelity 
 ### Home Page
 This is the page a user views for the first time when he/she enters the site. It has a navbar on top for the navigation menu and search bar. I have a hero section with a Call-To-Action button. It features the top 3 trending posts. Trending posts are selected based on the highest number of comments. Then, users can see the latest posts, categories, and recent comments.
 
-![home-f1](/documentation/images/features/home-f1.png) ![home-f2](/documentation/images/features/home-f2.png) ![home-f3](/documentation/images/features/home-f3.png)
+<details>
+<summary>Click to view Homepage features</summary>
+
+![home-f1](/documentation/images/features/home-f1.png) 
+![home-f2](/documentation/images/features/home-f2.png) 
+![home-f3](/documentation/images/features/home-f3.png)
+
+</details>
 
 ### About Page
 This page gives a brief introduction to the website. It consists of different sections like Vision, Mission, and Frequently Asked Questions.
 
-![about-f1](/documentation/images/features/about-f1.png) ![about-f2](/documentation/images/features/about-f2.png)
+<details>
+<summary>Click to view About Page features</summary>
+
+![about-f1](/documentation/images/features/about-f1.png) 
+![about-f2](/documentation/images/features/about-f2.png)
+
+</details>
 
 ### Blogs Page
 The blogs page displays all the existing posts on the website. At the top, users can see the featured post, which is the most recent post on the blog. I have 10 different movie categories listed in separate cards. My blog module supports pagination, which is defined dynamically based on the post count.
 
-![blog-f1](/documentation/images/features/blog-f1.png) ![blog-f2](/documentation/images/features/blog-f2.png) ![blog-f3](/documentation/images/features/blog-f3.png)
+<details>
+<summary>Click to view Blogs Page features</summary>
+
+![blog-f1](/documentation/images/features/blog-f1.png) 
+![blog-f2](/documentation/images/features/blog-f2.png) 
+![blog-f3](/documentation/images/features/blog-f3.png)
+
+</details>
 
 ### Nav Menu
 The nav menu contains everything the user will need to navigate the site. The site logo, along with pages and a search bar, always appears on the site menu. It also provides buttons for Sign Up and Login. If the user is already authenticated, these buttons are replaced with Profile and Logout.
 
-![nav-f1](/documentation/images/features/nav-f1.png) ![nav-f2](/documentation/images/features/nav-f2.png)
+<details>
+<summary>Click to view Nav Menu features</summary>
+
+![nav-f1](/documentation/images/features/nav-f1.png) 
+![nav-f2](/documentation/images/features/nav-f2.png)
+
+</details>
 
 ### Search Bar
 I have a search bar on the navigation menu that allows users to search for posts across the blog. Users can type their query into the textbox, and based on the parameter, I match it with titles of all the blog posts and serve the search results.
 
-![searchbar-f1](/documentation/images/features/searchbar-f1.png) ![searchbar-f2](/documentation/images/features/searchbar-f2.png)
+<details>
+<summary>Click to view Search Bar features</summary>
+
+![searchbar-f1](/documentation/images/features/searchbar-f1.png) 
+![searchbar-f2](/documentation/images/features/searchbar-f2.png)
+
+</details>
 
 ### Footer
 The footer appears across the website and includes information about Film Buzz and links to my Twitter, LinkedIn, and GitHub profiles. This lets the user learn more about me as the developer and connect on these platforms if they wish.
 
+<details>
+<summary>Click to view Footer features</summary>
+
 ![footer-f1](/documentation/images/features/footer-f1.png) 
+
+</details>
 
 ### Sign Up
 For account creation, the user needs to fill out the sign-up form with their username, email, and password (entered twice). Note that all these fields are validated in the background. The username/email must be unique, and the passwords must match and be strong.
 
+<details>
+<summary>Click to view Sign Up features</summary>
+
+![signup-f1](documentation/images/features/signup-f1.png) 
+
+</details>
+
 ### Login
-After account creation, a user can log in to my website. He/she will need to provide their registered username and password. After clicking the login button, I perform an authentication check in the backend. If the credentials match, the user is redirected to the home page. Otherwise, an error message is displayed based on the issue.
+After account creation, a user can log in to the website. He/she will need to provide their registered username and password. After clicking the login button, I perform an authentication check in the backend. If the credentials match, the user is redirected to the home page. Otherwise, an error message is displayed based on the issue.
+
+<details>
+<summary>Click to view Login features</summary>
+
+![login-f1](/documentation/images/features/login-f1.png) 
+![login-f2](/documentation/images/features/login-f2.png)
+
+</details>
 
 ### Post Details
-Users can view the details of a post by clicking on the post cards. On the post details page, they can see the featured image, description, author name, creation date and time, and the category of the post.
+Users can view the details of a post by clicking on the post cards. On the post details page, they can see the featured image, description, creation date and time, and the category of the post.
+
+<details>
+<summary>Click to view Post Details features</summary>
+
+![postdetails-f1](/documentation/images/features/postdetails-f1.png) 
+![postdetails-f2](/documentation/images/features/postdetails-f2.png)
+
+</details>
 
 ### Edit Post
 Authenticated users can edit their posts. On the post details page, there is an edit button that redirects to the edit post form. Users can update the title, content, category, and featured image of the post. After making changes, they can save the updates, which will reflect immediately on the post details page.
 
+<details>
+<summary>Click to view Edit Post features</summary>
+
+![editpost-f1](/documentation/images/features/editpost-f1.png) 
+![editpost-f2](/documentation/images/features/editpost-f2.png) 
+![editpost-f3](/documentation/images/features/editposts-f3.png) 
+![editpost-f4](/documentation/images/features/editposts-f4.png)
+
+</details>
+
 ### Delete Post
 Authenticated users can delete their posts. On the post details page, there is a delete button. Upon clicking, a confirmation page appears to prevent accidental deletions. Once confirmed, the post is permanently removed from the website, and the user is redirected to the blogs page.
+
+<details>
+<summary>Click to view Delete Post features</summary>
+
+![deletepost-f1](/documentation/images/features/deletepost-f1.png) 
+![deletepost-f2](/documentation/images/features/deletepost-f2.png) 
+![deletepost-f3](/documentation/images/features/deletepost-f3.png)
+
+</details>
 
 ### Comments
 Logged-in users can comment on any post. They can scroll down to the bottom of the post details page and use the comment form to add their comment. They can also edit and delete their comments in case of a change of mind.
 
+<details>
+<summary>Click to view Comments features</summary>
+
+![makecomment-f1](/documentation/images/features/makecomment-f1.png) 
+![makecomment-f2](/documentation/images/features/makecomment-f2.png)
+
+</details>
+
 ### Edit Comment
 Logged-in users can edit their comments. On the post details page, each comment has an edit button next to it. Clicking the edit button opens a form where users can modify the content of their comment. After making changes, they can save the updates, which will reflect immediately on the post details page.
+
+<details>
+<summary>Click to view Edit Comment features</summary>
+
+![editcomment-f1](/documentation/images/features/editcomment-f1.png) 
+![editcomment-f2](/documentation/images/features/editcomment-f2.png) 
+![editcomment-f3](/documentation/images/features/editcomment-f3.png)
+
+</details>
 
 ### Delete Comment
 Logged-in users can delete their comments. On the post details page, each comment has a delete button next to it. Once clicked, the comment is permanently removed from the post.
 
+<details>
+<summary>Click to view Delete Comment features</summary>
+
+![deletecomment-f1](/documentation/images/features/deletecomment-f1.png) 
+![deletecomment-f2](/documentation/images/features/deletecommment-f2.png)
+
+</details>
+
 ### User Profile
 Every registered user has their profile. The profile page displays the user's information based on the sign-up form values. It also displays some additional info, including bio, profile picture, joining date, and location. The joining date is dynamically stored in the database upon account creation. Initially, the bio, profile picture, and location are empty. Users can go to the edit profile section to update them. Note that the username and email are permanent and cannot be changed (except in special cases agreed upon by the superuser).
+
+<details>
+<summary>Click to view User Profile features</summary>
+
+![profile-f1](/documentation/images/features/profile-f1.png) 
+![profile-f2](/documentation/images/features/profile-f2.png) 
+![profile-f3](/documentation/images/features/profile-f3.png)
+
+</details>
 
 ### Filter Posts by Author
 On a user's profile, only posts created by that user are shown. My posts section also supports pagination, just like the blogs page.
 
+<details>
+<summary>Click to view Filtered Posts by Author features</summary>
+
+![filterposts-f1](/documentation/images/features/filterposts-f1.png)
+
+</details>
+
 ### Pagination
 On my blog and profile pages, I have implemented pagination for better user experience. It shows 6 posts per page. There are next/prev buttons along with oldest/latest buttons. The current page number and the total page number are shown in the middle.
 
-![pagination-f1](/documentation/images/features/pagination-f1.png) ![pagination-f2](/documentation/images/features/pagination-f2.png) ![pagination-f3](/documentation/images/features/pagination-f3.png)
+<details>
+<summary>Click to view Pagination features</summary>
+
+![pagination-f1](/documentation/images/features/pagination-f1.png) 
+![pagination-f2](/documentation/images/features/pagination-f2.png) 
+![pagination-f3](/documentation/images/features/pagination-f3.png)
+
+</details>
 
 ### Categories
 There are 10 different film categories on my website. They are predefined by the admin, and users can only select from the available categories. On the home and blogs pages, I list the categories in a card format. By clicking on any of them, users can view posts specific to that category.
 
-![categories-f1](/documentation/images/features/categories-f1.png) ![categories-f2](/documentation/images/features/categories-f2.png) ![categories-f3](/documentation/images/features/categories-f3.png)
+<details>
+<summary>Click to view Categories features</summary>
+
+![categories-f1](/documentation/images/features/categories-f1.png) 
+![categories-f2](/documentation/images/features/categories-f2.png) 
+![categories-f3](/documentation/images/features/categories-f3.png)
+
+</details>
 
 ### Recent Comments
 The most recent 3 comments are displayed on the homepage based on comment creation time. Each of these comments is clickable and links to the post where the comment was made.
 
-![recent-comments-f1](/documentation/images/features/recent-comments-f1.png) ![recent-comments-f2](/documentation/images/features/recent-comments-f2.png)
+<details>
+<summary>Click to view Recent Comments features</summary>
+
+![recent-comments-f1](/documentation/images/features/recent-comments-f1.png) 
+![recent-comments-f2](/documentation/images/features/recent-comments-f2.png)
+
+</details>
 
 ### 404 - Not Found
 If a user tries to access any invalid URL not listed in my project, they are redirected to the 404 page. The Back to Home button takes the user back to the homepage.
 
+<details>
+<summary>Click to view Not Found Page features</summary>
+
+![notfound-f1](/documentation/images/features/not-found-f1.png)
+
+</details>
+
 ### Admin Panel
 Superusers and staff can log in to the admin dashboard and have control over all the models. This page contains a list of all the posts, categories, movies, watchlist entries, and comments. Admins can edit or delete any of these entries as needed.
+
+<details>
+<summary>Click to view Admin Panel features</summary>
+
+![admin-f1](/documentation/images/features/admin-f1.png) 
+![admin-f2](/documentation/images/features/admin-f2.png) 
+![admin-f3](/documentation/images/features/admin-f3.png) 
+![admin-f4](/documentation/images/features/admin-f4.png) 
+![admin-f5](/documentation/images/features/admin-f5.png) 
+![admin-f6](/documentation/images/features/admin-f6.png) 
+![admin-f7](/documentation/images/features/admin-f7.png)
+
+</details>
 
 ## Database Design
 
@@ -674,13 +834,185 @@ Follow these steps:
 
 ### Django Project Setup
 
+The Film Buzz project was developed using Django, a versatile Python framework. This section outlines the steps for setting up the project, configuring essential components, and managing dependencies.
+
+#### Installing Django and Required Libraries
+
+1. Begin by installing Django and other necessary libraries:
+
+- `pip3 install 'django<4' gunicorn`
+- `pip3 install dj_database_url psycopg2`
+- `pip3 install dj3-cloudinary-storage`
+
+2. To ensure all dependencies are documented, generate a requirements.txt file:
+
+- `pip3 freeze --local > requirements.txt`
+
+#### Creating the Project and Apps
+
+1. Start the Project
+
+- `django-admin startproject filmbuzz .`
+
+2. Add Custom Apps 
+
+- Use the following command to create apps like `blog`, `watchlist`, `movies`, and `user`
+- `python3 manage.py startapp app_name`
+- Include these apps in the `INSTALLED_APPS` section of `settings.py`.
+
+3. Configuring the `settings.py` File
+
+- **Database**: Replace SQLite with PostgreSQL
+```python
+DATABASES = {
+    'default': dj_database_url.parse(config("DATABASE_URL"))
+}
+```
+
+- **Templates Directory**: Added a custom templates folder
+```python
+TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
+TEMPLATES = [
+    {
+        'DIRS': [TEMPLATES_DIR, os.path.join(BASE_DIR, 'templates', 'allauth')],
+        ...
+    }
+]
+```
+
+- **Environment Variables**: Use python-decouple to manage sensitive data:
+```python
+SECRET_KEY = config("SECRET_KEY")
+```
+
+4. Superuser and Migrations
+
+- Create a Superuser
+```python
+python3 manage.py createsuperuser
+```
+
+- Apply Migrations
+```python
+python3 manage.py migrate
+```
+
 ### Cloudinary API
+
+Cloudinary was integrated into Film Buzz to manage media file storage securely and efficiently. It provides a cloud-based solution for handling user-uploaded images and static assets.
+
+#### Setup and Integration
+
+1. Create a Cloudinary account by signing up at [Cloudinary](https://cloudinary.com/) and retrieving your API key
+
+2. **Add Cloudinary** to `settings.py`: Add the necessary libraries to `INSTALLED_APPS` in the following order:
+```python
+INSTALLED_APPS = [
+    'cloudinary_storage',
+    'django.contrib.staticfiles',
+    'cloudinary',
+    ...
+]
+```
+
+3. **Configure Cloudinary Storage**: Add these settings to `settings.py` to define Cloudinary as the default storage for static and media files:
+```python
+STATIC_URL = '/static/'
+STATICFILES_STORAGE = 'cloudinary_storage.storage.StaticHashedCloudinaryStorage'
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+MEDIA_URL = '/media/'
+DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
+```
+
+4. **Environment Variables**: Add your Cloudinary environment variable to your `.env` file: 
+```python
+CLOUDINARY_URL="cloudinary://<your_cloudinary_credentials>"
+```
+- By using Cloudinary, Film Buzz efficiently handles media uploads and ensures smooth integration with Django.
 
 ### Heroku Deployment
 
+To deploy your project to Heroku, follow these steps:
+
+1. **Log in to Heroku**:
+- Visit **[Heroku](https://www.heroku.com/)** and log in to your account. If you’re a new user, create an account first.
+
+2. **Create a New App**:
+- From the Heroku Dashboard, click the '**New**' button in the top-right corner and select '**Create New App**'.
+- Enter a unique app name and select your region. Click '**Create App**'.
+
+3. **Set Up Config Vars**:
+- Navigate to the **Settings** tab and locate the **Config Vars** section. Click '**Reveal Config Vars**'.
+- Add the following key-value pairs required for your app:
+  - `CLOUDINARY_URL`: `cloudinary://...`
+  - `DATABASE_URL`: `postgres://...`
+  - `DISABLE_COLLECTSTATIC`: `1` (this can be removed for the final deployment)
+  - `PORT`: `8000`
+  - `SECRET_KEY`: Your Django secret key.
+- Ensure the Heroku app hostname is added to the `ALLOWED_HOSTS` section in your `settings.py` file, e.g., `['your-heroku-app-name', 'localhost', '127.0.0.1']`
+
+4. **Prepare Your Project**:
+- Ensure the following files are correctly set up in your project:
+  - `requirements.txt`: Lists all required dependencies.
+  - `Procfile`: Defines how the app is run on Heroku.
+- Set `DEBUG = False` in your settings.py.
+- Save changes, commit your work, and push your code to GitHub.
+
+5. **Connect to GitHub**:
+- In the Heroku app dashboard, go to the **Deploy** tab and select **GitHub** as your deployment method.
+- Search for your repository name, select the desired branch, and click '**Connect**'.
+
+6. **Deploy Your App**:
+- Choose either '**Automatic**' or '**Manual**' deployment. For this guide, select '**Manual**'.
+- Click '**Deploy Branch**' to start building your app.
+
+7. **Launch Your Site**:
+- Once the build process is complete, click '**View**' to open your deployed site.
+- If errors occur, refer to the build logs for troubleshooting.
+
+8. **Post-Deployment Steps**:
+- Once your app is live and you’ve uploaded an image within your project, you can safely remove `DISABLE_COLLECTSTATIC` from the Config Vars. Similarly, you can remove `PORT:8000`.
+
 ### Clone Project
 
+To create a local clone of the Film Buzz repository, follow these steps:
+
+1. Log in to your [GitHub account](https://github.com/).
+
+2. Navigate to the [Film Buzz repository](https://github.com/raycarter23/film-buzz).
+
+3. Click the **Code** button at the top right of the file list.
+
+4. Copy the repository URL by selecting HTTPS, SSH, or GitHub CLI, and click the copy button.
+
+5. Open Git Bash or your terminal.
+
+6. Navigate to the directory where you want to clone the repository using the `cd` command.
+
+7. Run the following command:
+```bash
+git clone <copied-url>
+```
+- Replace `<copied-url>` with the URL you copied in Step 4.
+
+8. Press **Enter** to clone the repository locally.
+
+Once cloned, follow the steps in the Django Project Setup section to configure dependencies and environment variables.
+
 ### Fork Project
+
+Forking the Film Buzz repository allows you to create a copy of the original repository in your own GitHub account. This enables you to view, modify, or experiment with the code without affecting the original repository. Follow these steps to fork the project:
+
+1. Log in to your [GitHub account](https://github.com/).
+
+2. Navigate to the [Film Buzz repository](https://github.com/raycarter23/film-buzz).
+
+3. Click the **Fork** button located in the top-right corner of the repository page.
+
+4. Once the forking process is complete, you will have a copy of the Film Buzz repository in your GitHub account.
+
+5. Follow the steps outlined in the Django Project Setup section to configure the project locally if you plan to work on it.
 
 ## Tools & Technologies Used 
 
