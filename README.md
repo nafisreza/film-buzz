@@ -4,11 +4,6 @@
 
 Film Buzz is a movie blog platform built with Django, featuring full CRUD functionality that allows for creating, reading, updating, and deleting content. Users can explore insightful blogs, discover curated movie recommendations, and read thought-provoking reviews.
 
-The aim of this project was to create a site that provides an engaging space for movie lovers to stay informed, share their passion for cinema, and connect with a like-minded community while offering dynamic content management capabilities.
-
-
-Developed by **Ray Carter**
-
 View live site here: [Film Buzz website](https://film-buzz-3729799f06ec.herokuapp.com/)
 
 ------
@@ -26,11 +21,6 @@ View live site here: [Film Buzz website](https://film-buzz-3729799f06ec.herokuap
   - [Contrast Ratio: Secondary Colours](#contrast-ratio-secondary-colours)
   - [Typography](#typography)
   - [Logo Design](#logo-design)
-- [User Stories](#user-stories)
-  - [Developer](#developer)
-  - [Site Admin](#site-admin)
-  - [New Site Users](#new-site-users)
-  - [Registered Users](#registered-users)
 - [Wireframes](#wireframes)
   - [Low-Fidelity Wireframes](#low-fidelity-wireframes)
   - [High-Fidelity Wireframes](#high-fidelity-wireframes)
@@ -56,11 +46,6 @@ View live site here: [Film Buzz website](https://film-buzz-3729799f06ec.herokuap
 - [Tools & Technologies Used](#tools--technologies-used)
   - [Libraries and Frameworks](#libraries-and-frameworks)
   - [Tools and Programmes](#tools-and-programmes)
-- [Credits](#credits)
-  - [Content](#content)
-  - [Code](#code)
-  - [Media](#media)
-  - [Acknowledgements](#acknowledgements)
   
 ## Overview
 
@@ -92,16 +77,12 @@ Film Buzz is designed to cater to a wide range of movie lovers, each with unique
     - Individuals looking for movie recommendations and reviews to decide what to watch next.
 - **Reviewers and Bloggers**:
     - Professionals or hobbyists who want to share detailed critiques and engage with their audience.
-- **Social Users**:
-    - Users who enjoy following others, discovering popular content, and engaging in discussions.
-- **Students and Professionals in the Film Industry**:
-    - Aspiring filmmakers, critics, and actors seeking inspiration and community insights.
 
 ## UX
 
 ### Design Inspiration
 
-For detailed information on the research process and design inspiration for this project, please see the [research.md](https://github.com/raycarter23/film-buzz/blob/main/research.md) file.
+For detailed information on the research process and design inspiration for this project, please see the [research.md](https://github.com/nafisreza/film-buzz/blob/main/research.md) file.
 
 ### Colour Scheme
 
@@ -160,76 +141,6 @@ For seal brown on a white background, I achieved a contrast ratio of **10.59:1**
 I used [Logo Design AI](https://logodesign.ai/) to generate the following logo design for my website. I also generated the same logo with a white background, which was used in the footer section of the website, and I removed the background using [Remove Bg](https://www.remove.bg/)
 
 ![Logo](documentation/images/logo.png)
-
-## User Stories
-
-### Developer
-
-- As a developer I can get an idea of the whole design system so that I can work on the UI/UX design. `Must Have`
-
-- As a developer I can get an idea of which components to build so that I can work on the design system. `Must Have`
-
-- As a developer I can build the pages based on the Figma designs so that I can check how the website looks in real time. `Must Have`
-
-### Site Admin
-
-- As an admin I can add, edit, or delete posts so that the database remains accurate. `Must Have`
-
-- As a site admin, I can access a page exclusive to admins to view flagged user posts so that I can review posts that may need moderation or deletion. `Could Have`
-
-- As a site admin, I can unflag a post if it does not require deletion so that I can remove it from the list of flagged posts. `Could Have`
-
-- As an admin I can suspend user accounts who violate site guidelines so that I can prevent users from breaking the site rules. `Won’t Have`
-
-- As an admin, I can view analytics on user activity and engagement so that I can better understand how the platform is performing. `Won’t Have`
-
-### New Site users
-
-- As a first time site visitor I can clearly see the website's purpose so that I can use it in the future. `Must Have`
-
-- As a new site user I can create an account so that I can make my profile. `Must Have`
-
-- As a site visitor/user I can easily navigate the site on any device so that I have a seamless experience whether on desktop or mobile. `Must Have`
-
-- As a user/visitor I can see trending movies on the homepage so that I can discover what movies are popular right now. `Won’t Have`
-
-### Registered users
-
-- As a registered user I can login to my account so that I can access the site. `Must Have`
-
-- As a registered user I can log out of my account so that I can delete session on my current device. `Must Have`
-
-- As a registered user I can create posts so that I can share my thoughts about different movies. `Must Have`
-
-- As an author I can edit my posts so that I can correct information in the future. `Must Have`
-
-- As an author I can delete my posts so that I can remove content that I no longer want to be published. `Must Have`
-
-- As a user I can view all the posts so that I can learn about different movies. `Must Have`
-
-- As a commenter I can delete existing comments so that I can remove my opinions. `Must Have`
-
-- As a user I can filter posts so that I can view posts of a specific movie genre. `Must Have`
-
-- As a user I can search posts so that I can filter posts based on titles. `Must Have`
-
-- As a registered user I can delete my account so that I can stop using the site when I no longer need it. `Should Have`
-
-- As a registered user I can comment on other users' posts so that I can engage with them in a discussion. `Should Have`
-
-- As a user I can follow other users so that I can keep up with their posts. `Should Have`
-
-- As a registered user I can create my own watchlist so that I can track movies I am interested in watching. `Could Have`
-
-- As a commenter I can edit my existing comments so that I can correct information. `Could Have`
-
-- As a registered user I can update my profile information so that other users can identify me. `Could Have`
-
-- As a registered user I can receive personalised movie recommendations based on my watchlist and reviews so that I can discover films tailored to my preferences. `Won’t Have`
-
-- As a reviewer I can tag other users in comments so that I can engage directly with the community. `Won’t Have`
-
-- As a registered user I can sync my watchlist with streaming platforms so that I know where to watch my saved movies. `Won’t Have`
 
 ## Wireframes
 
@@ -392,16 +303,6 @@ I have a search bar on the navigation menu that allows users to search for posts
 
 ![searchbar-f1](/documentation/images/features/searchbar-f1.png) 
 ![searchbar-f2](/documentation/images/features/searchbar-f2.png)
-
-</details>
-
-### Footer
-The footer appears across the website and includes information about Film Buzz and links to my Twitter, LinkedIn, and GitHub profiles. This lets the user learn more about me as the developer and connect on these platforms if they wish.
-
-<details>
-<summary>Click to view Footer features</summary>
-
-![footer-f1](/documentation/images/features/footer-f1.png) 
 
 </details>
 
@@ -738,7 +639,7 @@ The Watchlist model represents a personalised list of movies that a user wants t
 
 For the Film Buzz project, I adopted a structured approach to managing features by breaking down larger Epics into smaller, actionable user stories. 
 
-This method allowed me to clearly define and prioritise each story using the [MoSCoW framework](https://www.agilebusiness.org/dsdm-project-framework/moscow-prioririsation.html), which was implemented in the [Issues](https://github.com/raycarter23/film-buzz/issues) tab with appropriate labels.
+This method allowed me to clearly define and prioritise each story using the [MoSCoW framework](https://www.agilebusiness.org/dsdm-project-framework/moscow-prioririsation.html), which was implemented in the [Issues](https://github.com/nafisreza/film-buzz/issues) tab with appropriate labels.
 
 - **Must Have**: Critical features that are essential for delivery - `comprising up to 60% of the total stories`
 - **Should Have**: Important features that add considerable value but are not critical for the core functionality - `accounting for about 20% of the stories`
@@ -748,7 +649,7 @@ This method allowed me to clearly define and prioritise each story using the [Mo
 
 ### GitHub Projects 
 
-I used [GitHub Projects](https://github.com/users/raycarter23/projects/3) as an Agile tool to streamline the development process for this project.
+I used [GitHub Projects](https://github.com/users/nafisreza/projects/3) as an Agile tool to streamline the development process for this project.
 
 The **Kanban Board** provided by GitHub Projects enabled me to:
 - Organise tasks according to the development cycle phases: Backlog, To Do, In Progress, and Done
@@ -782,11 +683,11 @@ Here is what my GitHub issues looked like at the **start** of the initial develo
 
 Here is what my GitHub issues looked like at the **end** of the development process:
 
-- [Open Issues](https://github.com/raycarter23/film-buzz/issues?q=is%3Aopen+is%3Aissue)
+- [Open Issues](https://github.com/nafisreza/film-buzz/issues?q=is%3Aopen+is%3Aissue)
 
 ![Open Issues](/documentation/agile-process/open-issues.png)
 
-- [Closed Issues](https://github.com/raycarter23/film-buzz/issues?q=is%3Aissue+is%3Aclosed)
+- [Closed Issues](https://github.com/nafisreza/film-buzz/issues?q=is%3Aissue+is%3Aclosed)
 
 ![Closed Issues - 1](/documentation/agile-process/closed-issues-1.png)
 
@@ -794,7 +695,7 @@ Here is what my GitHub issues looked like at the **end** of the development proc
 
 ## Testing 
 
-For detailed information on testing, please see the [TESTING.md](https://github.com/raycarter23/film-buzz/blob/main/TESTING.md) file.
+For detailed information on testing, please see the [TESTING.md](https://github.com/nafisreza/film-buzz/blob/main/TESTING.md) file.
 
 ### Fictional Users
 
@@ -994,7 +895,7 @@ To create a local clone of the Film Buzz repository, follow these steps:
 
 1. Log in to your [GitHub account](https://github.com/).
 
-2. Navigate to the [Film Buzz repository](https://github.com/raycarter23/film-buzz).
+2. Navigate to the [Film Buzz repository](https://github.com/nafisreza/film-buzz).
 
 3. Click the **Code** button at the top right of the file list.
 
@@ -1020,7 +921,7 @@ Forking the Film Buzz repository allows you to create a copy of the original rep
 
 1. Log in to your [GitHub account](https://github.com/).
 
-2. Navigate to the [Film Buzz repository](https://github.com/raycarter23/film-buzz).
+2. Navigate to the [Film Buzz repository](https://github.com/nafisreza/film-buzz).
 
 3. Click the **Fork** button located in the top-right corner of the repository page.
 
@@ -1032,7 +933,7 @@ Forking the Film Buzz repository allows you to create a copy of the original rep
 
 ### Technologies and Languages
 
-- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML): Used for structuring the content of the Film Buzz website.
+- [HTML/Jinja](https://developer.mozilla.org/en-US/docs/Web/HTML): Used for structuring the content of the Film Buzz website.
 
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS): Used for styling the layout and design of the website.
 
@@ -1082,18 +983,4 @@ Forking the Film Buzz repository allows you to create a copy of the original rep
 
 - [Readme.so](https://readme.so/): Assisted in generating structured and well-organized README documentation.
 
-- [ChatGPT](https://chat.openai.com/): Provided solutions for development issues, technical explanations, and creative inputs.
-
 - [Perplexity](https://www.perplexity.ai/): Used for researching technical solutions and understanding complex topics.
-
-Additional details on the python packages that were used can be found in the [requirements.txt](https://github.com/raycarter23/film-buzz/blob/main/requirements.txt) file
-
-## Credits
-
-For a comprehensive list of sources referenced in this project, please see the [credits.md](https://github.com/raycarter23/film-buzz/blob/main/credits.md) file.
-
-## Acknowledgements
-
-I would like to thank my Bootcamp course facilitator Amy Richardson for her support and guidance throughout the 16 week bootcamp.
-
-I also want to thank my carers for their support throughout the entirety of the bootcamp.
