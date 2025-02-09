@@ -38,7 +38,6 @@ TMDB_API_KEY = config('TMDB_API_KEY')
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    '8000-raycarter23-filmbuzz-5kwcihbyszf.ws.codeinstitute-ide.net',
     'film-buzz-3729799f06ec.herokuapp.com',
     '127.0.0.1']
 

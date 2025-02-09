@@ -1,6 +1,6 @@
 # Research 
 
-Navigate back to the [README.md](https://github.com/raycarter23/film-buzz/blob/main/README.md) file.
+Navigate back to the [README.md](https://github.com/nafisreza/film-buzz/blob/main/README.md) file.
 
 ## Research and Design Inspiration
 
